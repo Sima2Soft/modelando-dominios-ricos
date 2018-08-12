@@ -60,6 +60,10 @@ namespace ContextoDePagamento.Dominio.Manipuladores
             //Agrupar as Validações
             AddNotifications(name,document,email,address,student,subscription,pagamento);
 
+            // Checar as notificações
+            if (Invalid)
+                return new ResultadoComando(false,"Não foi possível realizar sua assinatura");
+
             // Salvar as Informações
             _repositorio.CriarAssinatura(student);
 
