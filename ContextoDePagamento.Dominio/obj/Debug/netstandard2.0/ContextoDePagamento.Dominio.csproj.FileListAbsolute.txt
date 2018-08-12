@@ -1,0 +1,11 @@
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\bin\Debug\netstandard2.0\ContextoDePagamento.Dominio.deps.json
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\bin\Debug\netstandard2.0\ContextoDePagamento.Dominio.dll
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\bin\Debug\netstandard2.0\ContextoDePagamento.Dominio.pdb
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\netstandard2.0\ContextoDePagamento.Dominio.csproj.CoreCompileInputs.cache
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\netstandard2.0\ContextoDePagamento.Dominio.AssemblyInfoInputs.cache
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\netstandard2.0\ContextoDePagamento.Dominio.AssemblyInfo.cs
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\netstandard2.0\ContextoDePagamento.Dominio.dll
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\netstandard2.0\ContextoDePagamento.Dominio.pdb
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\bin\Debug\netstandard2.0\ContextoDePagamento.Kernel.dll
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\bin\Debug\netstandard2.0\ContextoDePagamento.Kernel.pdb
+E:\Cursos\balta.io\1975-DominiosRicos\ContextoDePagamento\ContextoDePagamento.Dominio\obj\Debug\netstandard2.0\ContextoDePagamento.Dominio.csprojResolveAssemblyReference.cache

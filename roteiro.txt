@@ -1,0 +1,39 @@
+1)Criar o diretório da Solução;
+2)Abrir o Diretório no Code;
+3)Criar os diretórios dos projetos seguindo a regra da Microsoft: NomeDaEmpresa.NomeDoProjeto.NomeDaCamada;
+4)No diretório da solução, digitar o comando: dotnet new sln
+5)Agora, vamos criar os projetos de nossas camadas. No que precisamos, são apenas clas libraries por enquanto.
+5.1)Navegamos para dentro dos diretórios dos projetos e digitamos:
+dotnet new classLib
+5.2)O dotnet se incumbirá de criar os nomes dos projetos respeitando o mesmo nome do diretório.
+6)Caso se tenha uma Camada de testes, deve-se utilizar o seguinte comando:
+dotnet new mstest
+7)Voltemos ao diretório da Solução, e vamos adicionar os projetos no arquivos da Solução;
+7.1)Para tal, vamos digitar:
+dotnet sln add DiretorioDoProjeto/NomeDoProjeto.csproj
+8)Ao final das adições, executamos o comando:
+dotnet restore
+Este comando executa um restore dos pacotes necessários para o bom andamento de nossos projetos;
+Após o restore, efetuamos o build da solution através do comando:
+dotnet build
+9)Precisamos adicionar as referências para nossos projetos.
+Para tal, vamos precisar navegar para o diretório do projeto que precisamos adicionar as referências
+e utilizar o comando:
+dotnet add reference ..\DiretorioDoProjetoParaReferencia\ProjetoDeReferencia.csproj
+10)Sempre chame o comando dotnet build sempre que efetuar tais procedimentos para identificar
+possiveis erros.
+
+-----
+CODIFICAÇÃO DE CLASSES DE DOMÍNIOS RICOS
+-----
+1) Sempre que se criar uma classe, crie-a com as propriedades padrão
+1.1) Depois disso, selecione as propriedades e crie um construtor, sem a propriedade de integridade referencial
+como listas, por exemplo
+1.2) Depois marque as propriedades como private set;
+1.3) Substitua a propriedade do tipo List ou Collection para IReadOnlyCollection
+1.3.1) Para permitir que possamos gravar dados na lista, deve-se criar um atributo como private e colocar como somente leitura, como no exemplo:
+private readonly IList<ClasseComoLista> _nomeDaPropriedadeComoLista;
+1.3.2) Instanciá-la dentro do construtor
+1.3.3) Utilizá-la no método para adicionar itens à listagem;
+2) Para adicionar um pacote do nuget diretamente para uma camada via console, digita-se:
+dotnet add package NomeDoPacote
